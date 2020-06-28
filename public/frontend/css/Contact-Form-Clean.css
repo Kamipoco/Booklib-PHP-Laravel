@@ -1,0 +1,194 @@
+.contact-clean {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+  outline: none;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.clean-block.clean-cart .summary .coupon button {
+  margin-top: 0px;
+  font-weight: 300;
+  padding: 0px;
+}
+
+.clean-block.clean-catalog .products .clean-product-item:hover {
+  border: 3px solid #0b7d53;
+}
+
+.profile_link {
+  text-decoration: initial;
+  color: initial;
+  font-weight: 600;
+}
+
+.namebook {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.text-center.text-info.chuthich {
+  font-weight: 600;
+}
+
+.giasanpham {
+  font-weight: 600;
+  color: #f7472e;
+}
+
+.d-flex.flex-row.col-3.sanpham:hover {
+  border: 2px solid #065628;
+  border-radius: 5px;
+}
+
+.h3, h3 {
+  font-weight: 600;
+}
+
+#tongtien {
+  color: #fc8210;
+}
+
+.h4, h4 {
+  font-weight: 600;
+}
+
+#giatien .left {
+  font-weight: 600;
+}
+
+.right {
+  font-weight: 600;
+}
+
+.left {
+  font-weight: initial;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):focus {
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.tieptuc {
+  font: initial;
+  color: #06623b;
+  font-weight: 600;
+}
+
+.tieptuc:hover {
+  text-decoration: initial;
+}
+
+.tieptuc: hover {
+  text-decoration: initial;
+  font: initial;
+  font-weight: 600;
+}
+
+#numcart {
+  z-index: 1000;
+  font-size: 20px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #f6d743;
+  text-align: center;
+  border-radius: 50%;
+}
+
+span {
+}
+
+.sanpham {
+  padding: 5px 10px;
+  margin: 5px 0px;
+}
+
+.sanpham:hover {
+  border: 2px solid #28a745;
+  border-radius: 5px;
+}
+

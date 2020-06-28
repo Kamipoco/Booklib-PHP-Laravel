@@ -1,0 +1,100 @@
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+  font-weight: bold;
+}
+
+.clean-product-item:hover {
+  /*background-color: #724952;*/
+}
+/*
+#menu ul{
+    list-style-type: none;
+    background: #0c5460;
+    text-align: center;
+}
+#menu ul li{
+    color: #f1f1f1;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu ul li a{
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    background: #f1f1f1;
+    color: #333;
+}
+#menu ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover .sub-menu{
+    display: block;
+}
+ */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+/* Kiểu nút Dropdown */
+/*
+.dropbtn {
+    background-color: #58257b;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e9d8f4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #58257b;
+    color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #984eca;
+}
+*/
